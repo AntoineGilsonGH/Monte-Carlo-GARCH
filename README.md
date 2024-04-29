@@ -1,9 +1,19 @@
 # Title : Monte Carlo Project 
 
+Academic project led by Rémi Calvet, Antoine Gilson, Anna Mosaki and Louis Reisse about : Zero variance Markov chain Monte Carlo for Bayesian estimators, and control variates for GARCH model, derived from these two papers : https://doi.org/10.1007/s11222-012-9344-6 and https://doi.org/10.1007/s11222-021-10011-z.
+
+The plan we followed during our project is the following : 
+
+I - Presentation of the ZV principle of the article, in a general case
+II - Implementation of a Random Walk Metropolis Sampler
+III - Use of Control Variates for Variance Reduction
+IV - Expansion to Higher Order Polynomials
+V - Bonus: Linear Regression Validity
 
 
 
-POUR LA QUESTION 1, d'après ce que j'ai compris on doit:
-1) Estimer les paramètres de la trial function psi qui est un polynome*sqrt(pi(x)) en utilisant une formule de l'article (on utilise MCMC pour calculer les espérances dans la formule) 
-2) "In the second stagean independent simulation is run (with length 10,000) and ̃f k (ω) is averaged in order to efficiently estimate the poste-rior mean of each parameter". Ici on veut estimer les wi mais je comprends pas trop comment.
-3) Puis simuler des échantillons ?
+
+
+
+
+
